@@ -14,7 +14,7 @@ Repositori ini berisi kumpulan materi, modul praktikum, tugas mandiri, serta per
 
 ## 📂 Struktur Repositori
 
-`	ext
+```	ext
 ├── Draft_BRD _ PRD -Project/  # Dokumen perancangan proyek akhir (BRD & PRD DompetKuu)
 │   ├── BRD_DompetKuu_darft.pdf
 │   └── PRD_DompetKuu_draft.pdf
@@ -25,7 +25,7 @@ Repositori ini berisi kumpulan materi, modul praktikum, tugas mandiri, serta per
 ├── pertemuan5/                # Pertemuan 5: Penyimpanan Lokal (SQLite & Shared Preferences)
 ├── pertemuan6/                # Pertemuan 6: Penerapan Tema, Preferensi & State Lanjutan
 ├── pertemuan7/ - pertemuan9/  # Folder project praktikum lanjutan
-`
+```
 
 ---
 
@@ -37,14 +37,14 @@ Repositori ini berisi kumpulan materi, modul praktikum, tugas mandiri, serta per
 | **02** | Layouting & Profiling UI | Card, ListTile, ListView, Divider, Styling | Aplikasi Daftar Kontak & Profil |
 | **03** | Formulir, Input & Interaksi | TextField, Dropdown, Checkbox, Form Validation | Aplikasi Daftar Belanja Interaktif |
 | **04** | Navigasi, Models & Service | Navigator, Routing, Models, Business Logic Separation | Aplikasi Salam & Manajemen Data Mandiri |
-| **05** | Penyimpanan Data Lokal | SQLite (sqflite), shared_preferences, Format Rupiah | Aplikasi Pencatatan Transaksi Finansial |
+| **05** | Penyimpanan Data Lokal | SQLite (`sqflite`), `shared_preferences`, Format Rupiah | Aplikasi Pencatatan Transaksi Finansial |
 | **06** | Tema Dinamis & Preferensi Sistem | Dark Mode / Light Mode, Seed Color Palette, Persistent Theme | Sistem Tema & Pengaturan Aplikasi Dinamis |
 
 Setiap folder pertemuan dilengkapi dengan:
-- 📖 **Modul Praktikum (PDF)** di dalam subfolder lib/modul/
-- 🧪 **Latihan Praktikum** di dalam lib/Praktikum/
-- 📝 **Tugas Mandiri** di dalam lib/Tugas/ dan lib/Latihan_mandiri.dart
-- 📑 **Dokumentasi Tugas** di dalam lib/DocTugas/
+- 📖 **Modul Praktikum (PDF)** di dalam subfolder `lib/modul/`
+- 🧪 **Latihan Praktikum** di dalam `lib/Praktikum/`
+- 📝 **Tugas Mandiri** di dalam `lib/Tugas/` dan `lib/Latihan_mandiri.dart`
+- 📑 **Dokumentasi Tugas** di dalam `lib/DocTugas/`
 
 ---
 
@@ -57,31 +57,32 @@ Setiap folder pertemuan dilengkapi dengan:
 - Emulator Android atau Device Fisik dengan mode USB Debugging aktif
 
 ### Langkah Menjalankan:
+
 1. **Clone repositori:**
-   `ash
-   git clone https://github.com/GaassXX/Pemmob-Flutter-CR002.git
-   cd Pemmob-Flutter-CR002
-   `
+```bash
+git clone https://github.com/GaassXX/Pemmob-Flutter-CR002.git
+cd Pemmob-Flutter-CR002
+```
 
 2. **Pilih folder pertemuan yang ingin dijalankan (contoh: Pertemuan 5):**
-   `ash
-   cd pertemuan5
-   `
+```bash
+cd pertemuan5
+```
 
 3. **Install dependensi package:**
-   `ash
-   flutter pub get
-   `
+```bash
+flutter pub get
+```
 
 4. **Jalankan aplikasi:**
-   `ash
-   flutter run
-   `
+```bash
+flutter run
+```
 
 ---
 
 ## 📌 Proyek Akhir
-Folder Draft_BRD _ PRD -Project/ berisi dokumen spesifikasi kebutuhan sistem (**DompetKuu**):
+Folder `Draft_BRD _ PRD -Project/` berisi dokumen spesifikasi kebutuhan sistem (**DompetKuu**):
 - **BRD (Business Requirement Document)**: Kebutuhan bisnis, target pengguna, dan arsitektur fitur.
 - **PRD (Product Requirement Document)**: Detail implementasi teknis, user flow, dan ruang lingkup pengembangan.
 
