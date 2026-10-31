@@ -15,7 +15,11 @@ Repositori ini berisi kumpulan materi, modul praktikum, tugas mandiri, serta per
 ## 📂 Struktur Repositori
 
 ```	ext
-├── draft_project/  # Dokumen perancangan proyek akhir (BRD & PRD DompetKuu)
+├── Uts/                        # UTS Praktikum (Wireframe, Mockup & Prototype Figma)
+│   └── Docs/
+│       ├── UTS_Pemmob-Wireframe&Mockup.pdf
+│       └── Praktikum/README.md
+├── draft_project/              # Dokumen perancangan proyek akhir (BRD & PRD FinChat)
 │   ├── BRD_DompetKuu_darft.pdf
 │   └── PRD_DompetKuu_draft.pdf
 ├── pertemuan1/                # Pertemuan 1: Pengenalan Flutter & Basic Widget
@@ -82,7 +86,7 @@ flutter run
 ---
 
 ## 📌 Proyek Akhir
-Folder `draft_project/` berisi dokumen spesifikasi kebutuhan sistem (**DompetKuu**):
+Folder `draft_project/` berisi dokumen spesifikasi kebutuhan sistem (**FinChat**):
 - **BRD (Business Requirement Document)**: Kebutuhan bisnis, target pengguna, dan arsitektur fitur.
 - **PRD (Product Requirement Document)**: Detail implementasi teknis, user flow, dan ruang lingkup pengembangan.
 
