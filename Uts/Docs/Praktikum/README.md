@@ -7,7 +7,7 @@ Repositori ini memuat dokumentasi dan tautan interaktif untuk mencoba **Prototyp
 ## 👨‍💻 Informasi Mahasiswa
 * **Nama**: Rizqi Bagas Wicaksono
 * **Kelas**: CR002
-* **Mata Kuliah**: Praktikum Pemrograman Mobile
+* **Mata Kuliah**: Pemrograman Mobile
 * **Nama Proyek / Aplikasi**: FinChat *(Financial & Chat Assistant)*
 * **Dokumen Acuan**: [UTS_Pemmob-Wireframe&Mockup.pdf](../UTS_Pemmob-Wireframe&Mockup.pdf)
 
